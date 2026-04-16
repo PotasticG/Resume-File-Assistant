@@ -1,0 +1,16 @@
+{
+  "name": "resume-file-assistant",
+  "version": "1.0.0",
+  "description": "LLM-powered resume assistant using Anthropic tool-use API",
+  "type": "module",
+  "main": "llmFileAssistant.js",
+  "scripts": {
+    "start": "node llmFileAssistant.js",
+    "ask": "node llmFileAssistant.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
